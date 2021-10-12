@@ -34,4 +34,7 @@ The Lot Summary dataframe displays the mean, median, variance, and standard devi
 
 
 
-Design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Manufacturing Lots One and Two meet the requirement. 
+Design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Manufacturing Lots One and Two meet the requirement. Lot 3's mean & median are low and the variance is high.
+
+
+

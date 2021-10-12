@@ -56,7 +56,7 @@ T-test Lot #1
 
 
 
-Assuming our significance level was the common 0.05 percent, our p-value (0.00000000001568) is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+Assuming our significance level was the common 0.05 percent, the p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 
 T-test Lot #2
 
@@ -64,16 +64,21 @@ T-test Lot #2
 
 
 
-Assuming our significance level was the common 0.05 percent, our p-value (0.0005911) is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+Assuming our significance level was the common 0.05 percent, the p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 
 T-test Lot #3
 
 ![t_Test_lot3](https://user-images.githubusercontent.com/74462990/136871994-080fc8ec-ed15-4b79-959e-20f92cee668a.jpg)
 
 
-Assuming our significance level was the common 0.05 percent, our p-value (0.1589) is below our significance level. Therefore, we do have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically dissimilar.
+Assuming our significance level was the common 0.05 percent, the p-value is below our significance level. Therefore, we do have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically dissimilar.
 
 
 
 
 
+## Design a Study Comparing the MechaCar to the Competition
+- Start with performing a linear regression on a data set with multiple variables that might interest a consumer to find variables that are not determined by random chance or     error. In this study lets look at the correlation between competitor prices and maintenance costs.
+- Develope the hypothesis
+    - null hypothesis would state: there is no correlation between price of vehicle and maintenance costs; the alternative hypothesis would say that there is a relationship           between vehicle cost and maitenance costs. 
+- Then run a One-Sample T-test to compare the results of MechaCar against their competitors. This would compute if there is a statistical difference betweeen the mean of           MechaCar's maintenace costs and their competitors. In order to run this study, one would need to have data of average maintenace costs of vehicles per year and the cost         vehicles.

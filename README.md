@@ -33,8 +33,47 @@ The Lot Summary dataframe displays the mean, median, variance, and standard devi
 
 
 
-
+### Summary
 Design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Manufacturing Lots One and Two meet the requirement. Lot 3's mean & median are low and the variance is high.
+
+
+## T-Tests on Suspension Coils
+
+T-test across all lots
+
+![T_Test across all lots](https://user-images.githubusercontent.com/74462990/136871856-4bee52ec-8e12-4390-85b2-4c47f8128acb.jpg)
+
+
+
+There are a number of metrics produced from the t.test()function, but for now we will only concern ourselves with the calculated p-value. Assuming our significance level was the common 0.05 percent, our p-value is larger than our significance level. Therefore, we have sufficient evidence to accept the null hypothesis, and we would state that the two means are statistically different
+
+
+
+T-test Lot #1
+
+![t_Test_lot_1](https://user-images.githubusercontent.com/74462990/136871927-a4fdc572-fb35-4955-96d0-707f5c29ed65.jpg)
+
+
+
+
+Assuming our significance level was the common 0.05 percent, our p-value (0.00000000001568) is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
+T-test Lot #2
+
+![t_Test_Lot2](https://user-images.githubusercontent.com/74462990/136871961-75ae7db5-4a23-4a30-bd31-8554d684a854.jpg)
+
+
+
+Assuming our significance level was the common 0.05 percent, our p-value (0.0005911) is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
+T-test Lot #3
+
+![t_Test_lot3](https://user-images.githubusercontent.com/74462990/136871994-080fc8ec-ed15-4b79-959e-20f92cee668a.jpg)
+
+
+Assuming our significance level was the common 0.05 percent, our p-value (0.1589) is below our significance level. Therefore, we do have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically dissimilar.
+
+
 
 
 
